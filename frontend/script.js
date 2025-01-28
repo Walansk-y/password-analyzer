@@ -1,6 +1,6 @@
 document.getElementById('check-password').addEventListener('click', async () => {
     const password = document.getElementById('password-input').value;
-    const response = await fetch('https://password-strength-analyzer-backend.onrender.com/check-password', {
+    const response = await fetch('https://password-analyzer-7eud.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ password })
