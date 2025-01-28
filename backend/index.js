@@ -1,10 +1,14 @@
 const express = require('express');
 const axios = require('axios');
+const cors = require('cors'); // Import the CORS middleware
 const app = express();
 const PORT = process.env.PORT || 3000; // Use Render's PORT or fallback to 3000
 
 // Middleware to parse JSON
 app.use(express.json());
+
+// Enable CORS for all origins (or specify specific domains for better security)
+app.use(cors());
 
 // Have I Been Pwned API endpoint
 app.post('/check-password', async (req, res) => {
