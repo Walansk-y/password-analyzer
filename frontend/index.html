@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strength Analyzer</h1>
+        <input type="text" id="password-input" placeholder="Enter a password">
+        <div id="strength-feedback"></div>
+        <button id="check-password">Check Password</button>
+
+        <h2>Password Generator</h2>
+        <div>
+            <label>Length: <input type="number" id="length" value="12" min="4" max="32"></label>
+            <label><input type="checkbox" id="uppercase" checked> Uppercase</label>
+            <label><input type="checkbox" id="lowercase" checked> Lowercase</label>
+            <label><input type="checkbox" id="numbers" checked> Numbers</label>
+            <label><input type="checkbox" id="symbols" checked> Symbols</label>
+        </div>
+        <button id="generate-password">Generate Password</button>
+        <div id="generated-password"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
