@@ -4,6 +4,7 @@ body {
     padding: 20px;
     background-color: #f4f4f4;
 }
+
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -11,17 +12,63 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 input[type="text"], input[type="number"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
 }
+
 button {
     padding: 10px 20px;
     margin: 10px 0;
     cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
+
+button:hover {
+    background-color: #0056b3;
+}
+
 #strength-feedback, #generated-password {
     margin: 10px 0;
     font-weight: bold;
 }
+
+/* Password Strength Bar */
+#progress-container {
+    width: 100%;
+    background: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+#password-strength-bar {
+    height: 100%;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.weak {
+    background-color: red;
+    width: 33%;
+}
+
+.medium {
+    background-color: orange;
+    width: 66%;
+}
+
+.strong {
+    background-color: green;
+    width: 100%;
+}
+
+
