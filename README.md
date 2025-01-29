@@ -12,9 +12,15 @@ The Password Strength Analyzer is a web application that evaluates the strength 
 🔗 [Try It Here]()
 
 ## Tech Stack
-Frontend: HTML, CSS, JavaScript  
-Backend: Node.js, Express.js  
-API Integration: Have I Been Pwned API  
+Frontend:  
+* HTML  
+* CSS  
+* JavaScript  
+Backend:  
+* Node.js  
+* Express.js  
+API Integration:
+*Have I Been Pwned API  
 Hosting:
 * Frontend: GitHub Pages  
 * Backend: Render
