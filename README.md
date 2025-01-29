@@ -9,7 +9,7 @@ The Password Strength Analyzer is a web application that evaluates the strength 
 ✅ User-Friendly Interface – Simple, clean design with an easy-to-use interface.
 
 ## Live Demo
-🔗 Try It Here
+🔗 [Try It Here]()
 
 ## Tech Stack
 
@@ -21,7 +21,7 @@ Frontend: GitHub Pages
 Backend: Render
 ### Setup & Installation
 1. Clone the Repository
-``
+```
 git clone https://github.com/walansk-y/password-analyzer.git
 cd password-analyzer
 ```
