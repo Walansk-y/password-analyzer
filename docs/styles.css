@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,70 +6,72 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Container */
 .container {
     max-width: 600px;
     margin: 0 auto;
     background: #fff;
     padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"], input[type="number"] {
+/* Inputs */
+input[type="password"], input[type="number"] {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
+/* Buttons */
 button {
-    padding: 10px 20px;
+    width: 100%;
+    padding: 10px;
     margin: 10px 0;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
     border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
     border-radius: 5px;
-    transition: background 0.3s;
+    transition: background 0.3s ease;
 }
 
 button:hover {
     background-color: #0056b3;
 }
 
-#strength-feedback, #generated-password {
-    margin: 10px 0;
-    font-weight: bold;
-}
-
-/* Password Strength Bar */
-#progress-container {
+/* Password Strength Meter */
+#strength-meter {
     width: 100%;
-    background: #ddd;
     height: 10px;
+    background-color: #ddd;
     border-radius: 5px;
     margin: 10px 0;
     overflow: hidden;
 }
 
-#password-strength-bar {
+#strength-bar {
     height: 100%;
     width: 0%;
-    transition: width 0.3s ease-in-out;
-    border-radius: 5px;
-}
-
-.weak {
     background-color: red;
-    width: 33%;
+    transition: width 0.3s ease, background-color 0.3s ease;
 }
 
-.medium {
-    background-color: orange;
-    width: 66%;
+/* Strength Feedback */
+#strength-feedback {
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: center;
 }
 
-.strong {
-    background-color: green;
-    width: 100%;
+/* Generated Password Display */
+#generated-password {
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
 }
-
-

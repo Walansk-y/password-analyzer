@@ -9,13 +9,22 @@
 <body>
     <div class="container">
         <h1>Password Strength Analyzer</h1>
-        <input type="password" id="password-input" placeholder="Enter a password">
-        <div id="progress-container">
-            <div id="password-strength-bar"></div>
+
+        <!-- Password Input Section -->
+        <input type="password" id="password-input" placeholder="Enter a password" autocomplete="off">
+        
+        <!-- Strength Meter -->
+        <div id="strength-meter">
+            <div id="strength-bar"></div>
         </div>
-        <div id="strength-feedback"></div>
+
+        <!-- Strength Feedback -->
+        <div id="strength-feedback" aria-live="polite"></div>
+
+        <!-- Check Password Button -->
         <button id="check-password">Check Password</button>
 
+        <!-- Password Generator Section -->
         <h2>Password Generator</h2>
         <div>
             <label>Length: <input type="number" id="length" value="12" min="4" max="32"></label>
@@ -24,9 +33,14 @@
             <label><input type="checkbox" id="numbers" checked> Numbers</label>
             <label><input type="checkbox" id="symbols" checked> Symbols</label>
         </div>
+        
+        <!-- Generate Password Button -->
         <button id="generate-password">Generate Password</button>
+        
+        <!-- Generated Password Display -->
         <div id="generated-password"></div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
