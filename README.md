@@ -22,7 +22,7 @@ Backend:
 * Express.js
 
 API Integration:
-*Have I Been Pwned API  
+* Have I Been Pwned API  
 
 Hosting:
 * Frontend: GitHub Pages  
