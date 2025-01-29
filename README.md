@@ -3,9 +3,9 @@
 The Password Strength Analyzer is a web application that evaluates the strength of user-entered passwords in real-time. It also integrates the Have I Been Pwned API to check whether a password has been compromised in major security breaches. Additionally, the tool includes a customizable password generator to help users create secure passwords.
 
 ## Features
-✅ Real-time Password Strength Feedback – Instantly evaluates password complexity.
-✅ Breach Check – Uses the Have I Been Pwned API to check if a password has been leaked.
-✅ Customizable Password Generator – Allows users to set length and character types (uppercase, lowercase, numbers, symbols).
+✅ Real-time Password Strength Feedback – Instantly evaluates password complexity.  
+✅ Breach Check – Uses the Have I Been Pwned API to check if a password has been leaked.  
+✅ Customizable Password Generator – Allows users to set length and character types (uppercase, lowercase, numbers, symbols).  
 ✅ User-Friendly Interface – Simple, clean design with an easy-to-use interface.
 
 ## Live Demo
