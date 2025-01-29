@@ -39,16 +39,11 @@ cd password-analyzer
 cd backend
 npm install
 ```
-3. Install Backend Dependencies
-```
-cd backend
-npm install
-```
-4. Start the Backend Server
+3. Start the Backend Server
 ```
 node index.js
 ```
-5. Open the Fronted
+4. Open the Fronted
 Navigate to the frontend/index.html file in your browser or host it via GitHub Pages.
 
 ## Contributing
